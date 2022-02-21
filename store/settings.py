@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     "colorfield",
     "rest_framework",
     "rest_framework.authtoken",
+    "labrana_backend.apps.api",
     "labrana_backend.apps.users",
+    "labrana_backend.apps.listelement",
 ]
 
 MIDDLEWARE = [
